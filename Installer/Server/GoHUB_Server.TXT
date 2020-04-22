@@ -1,0 +1,3 @@
+The cab file for your application has been built as 'D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Server\GoHUB_Server.CAB'.
+
+There is also a batch file in the support directory (D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Server\Support\GoHUB_Server.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.

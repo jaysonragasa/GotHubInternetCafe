@@ -1,0 +1,83 @@
+computers
+---------
+IPNumber
+Name
+
+PCUSers
+-----------
+name
+LogInDate
+LogInTime
+LogOutTime
+TimeUsed
+services	can have many service
+quantity	
+TotalBill
+
+walkthrough
+-----------
+name
+services	can have many service
+quantity
+TotalBill
+
+Services
+-----------
+ServiceName
+ServceAmount
+PerUnit
+
+------------------------------------------------------
+
+ServicedPeoples				since everyone can enter and ask for any service.
+---------------				lets just create a table recording their
+SrvPipsID				unique ID for each people
+name					name
+
+ServicedPoepleDetails			its just a record for each people who asked a service on the internet cafe
+---------------------
+SrvPipsDetID				unique id
+SrvPipsID				who's that person?
+ServiceID				services ask on the internet cafe
+IPNumber
+quantity				quantity for service
+totalbill				and totalbill
+
+ServicedPeoplesWhoUsedTheInternet	a table for users who used the internet
+---------------------------------
+SrvPips_IU_ID				(ServicedPeople_InternetUsers_Identification) unique ID
+SrvPipsID				(ServicedPoepleIdentification) a person can come back anytime they want and asked for the same service. so its better to used their unque id to prevent duplication of their names
+LogInDate
+LogInTime
+LogOutTime
+TimeUsed
+
+Services				internet cafe's services
+---------------
+ServiceID				unique id
+ServiceName				service name
+ServceAmount				amount 
+PerUnit
+
+-------------------------------------------------------
+
+Receipt
+-------
+ORNO					unique
+date
+time
+SrvPipsID
+	name
+TotalBill
+
+
+
+
+
+
+
+
+
+
+
+

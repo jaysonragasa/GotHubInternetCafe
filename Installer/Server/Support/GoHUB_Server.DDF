@@ -1,0 +1,47 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="GoHUB_Server.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"GoHUB_Server.exe"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"uxtheme.dll"
+"dao360.dll"
+"msjet40.dll"
+"msjter40.dll"
+"msjint40.dll"
+"vbajet32.dll"
+"expsrv.dll"
+"mswstr10.dll"
+"mswdat10.dll"
+"msrd2x40.dll"
+"msrd3x40.dll"
+"msrepl40.dll"
+"msjtes40.dll"
+"VB5DB.DLL"
+"ccrpTmr6.dll"
+"SSubTmr6.dll"
+"MSWINSCK.OCX"
+"mscomctl.ocx"
+"COMCT232.OCX"
+"MSCOMCT2.OCX"
+"LaVolpeButtons.ocx"
+"TABCTL32.OCX"
+"MSMASK32.OCX"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"

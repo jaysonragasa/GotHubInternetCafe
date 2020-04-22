@@ -1,0 +1,197 @@
+[Root]
+Most Recent Package=GotHUB? Internet - Client Side Application
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\installer - client
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client\Client.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\uxtheme.dll=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\LaVolpeButtons.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client\Client.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\uxtheme.dll=$(WinSysPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\LaVolpeButtons.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client\Client.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Client
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Client
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Client]
+Icon1=Client.exe
+Title1=Client
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\installer - client
+ProjectFolder=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client
+ServerSideCab=
+File1=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\installer - client\setup.exe
+File2=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\installer - client\Setup.Lst
+File3=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\installer - client\Client.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|GotHUB? Internet - Client Side Application|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Client
+
+[Package|GotHUB? Internet - Client Side Application|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GotHUB? Internet - Client Side Application|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GotHUB? Internet - Client Side Application|Files Found]
+
+[Package|GotHUB? Internet - Client Side Application|Files Released]
+
+[Package|GotHUB? Internet - Client Side Application|Missing Dependency Information]
+
+[Package|GotHUB? Internet - Client Side Application|Out-of-Date Dependency Information]
+
+[Package|GotHUB? Internet - Client Side Application|Files Added]
+
+[Package|GotHUB? Internet - Client Side Application|Files Removed]
+c:\windows\system32\msimg32.dll=
+
+[Package|GotHUB? Internet - Client Side Application|Files In Project]
+D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client\Client.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\uxtheme.dll=Yes
+C:\WINDOWS\system32\msimg32.dll=No
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\LaVolpeButtons.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+
+[Package|GotHUB? Internet - Client Side Application|Configure Registry Files]
+Applicable=No
+
+[Package|GotHUB? Internet - Client Side Application|Configure Remote Servers]
+Applicable=No
+
+[Package|GotHUB? Internet - Client Side Application|Install Locations]
+D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client\Client.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\uxtheme.dll=$(WinSysPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\LaVolpeButtons.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+
+[Package|GotHUB? Internet - Client Side Application|Configure Shared Files]
+Applicable=Yes
+D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client\Client.exe=No
+
+[Package|GotHUB? Internet - Client Side Application|Distribution]
+Type=single
+Size=
+Title=GutHUB? Internet - Client Side Application
+
+[Package|GotHUB? Internet - Client Side Application|IconGroups]
+Group0=Client
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|GotHUB? Internet - Client Side Application|Client]
+Icon1=Client.exe
+Title1=Client
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GotHUB? Internet - Client Side Application|Package]
+PackageFolder=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Client
+ProjectFolder=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Client
+ServerSideCab=
+File1=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Client\setup.exe
+File2=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Client\Setup.Lst
+File3=D:\Jayson\Visual Basic Programs 2004\System\Got HUB Network System\Installer\Client\Client.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
